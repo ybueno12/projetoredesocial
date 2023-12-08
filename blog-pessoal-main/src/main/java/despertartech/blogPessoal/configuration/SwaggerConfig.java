@@ -19,19 +19,19 @@ public class SwaggerConfig {
 	public OpenAPI springBlogPessoalOpenAPI() {
 		return new OpenAPI()
 				.info(new Info()
-						.title("Projeto Rede Social ")
+						.title("Projeto Rede Social")
 						.description("Projeto Rede Social - Despertar Tech")
 						.version("v0.0.1")
 					.license(new License()
 							.name("Despertar Tech")
 							.url("https://despertar.org.br/"))
 					.contact(new Contact()
-							.name("Yago")
-							.url("https://despertar.org.br/")
-							.email("dlm.lorena@gmail.com")))
+							.name("yago bueno")
+							.url("https://github.com/ybueno12/projetoredesocial")
+							.email("yagobuenokisielow12@gmail.com")))
 					.externalDocs(new ExternalDocumentation()
-							.description("Github")
-							.url("https://github.com/loirena/blog-pessoal"));
+							.description("Github Projeto rede social")
+							.url("https://github.com/ybueno12/projetoredesocial"));
 	}
 	
 	
